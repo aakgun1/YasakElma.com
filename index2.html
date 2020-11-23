@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <title>Yasak Elma</title>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="style.css">
+                <body>
+                    
+                    <!-- Navbar (sit on top) -->
+                    <div class="w3-top">
+                        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+                            <a href="#home" class="w3-bar-item w3-button"><b>Yasak</b> Elma</a>
+                            <!-- Float links to the right. Hide them on small screens -->
+                            <div class="w3-right w3-hide-small">
+                                <a href="#hakkında" class="w3-bar-item w3-button">Hakkında</a>
+                                <a href="#hakkında" class="w3-bar-item w3-button">Gizlilik</a>
+                                <a href="#contact" class="w3-bar-item w3-button">Destek</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Header -->
+                    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+                        
+                        <img class="w3-image" src="App.jpg" alt="Yasak Elma" width="1500" height="800" style="padding-top: 75px">
+                            <div class="w3-display-middle w3-margin-top w3-center">
+                            </div>
+                    </header>
+                    
+                    <!-- Page content -->
+                    <div class="w3-content w3-padding" style="max-width:1564px">
+                        
+                        <!-- About Section -->
+                        <div class="w3-container w3-padding-32" id="hakkında">
+                            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Hakkında</h3>
+                            <p>Yasak Elma'nın artık uygulması da var! 4. sezon heyecanı, entrika ve macera dolu olarak Yasak Elma uygulamasında yaşanıyor. Üstelik tamamen ücretsiz ve reklamsız! Güncel ve her bölümden sonra yenileri eklenen yüzlerce soruyu cevaplarken bir yandan da puanları topla. Soruların arka planındaki harika resimlerle kendini Yıldız, Şahika ve Ender'in arasında gibi hisset. Bölümlerden önce hatırlatma bildirimleri al ve bildirimlerin ne zaman geleceğini kendin belirle. Anketlerle sonraki bölümlerde olacakları tahmin et, başkalarının da ne düşündüğünden habedar ol. Yasak Elma uygulamasını hemen App Store'dan indir!
+                            </p>
+                        </div>
+                        
+                        <div class="w3-row-padding ">
+                            <div class="w3-col l3 m6 w3-margin-bottom">
+                                <img src="Ender.jpg" alt="Ender" style="width:100%">
+                                    <h3>Ender 🦹‍♀️</h3>
+                                    <p class="w3-opacity">Halit'in 3 ve 5. eşi</p>
+                                    <p>Halit'in eski sekreteri ve Erim'in annesi. Çoğunlukla Halit'in düşmanı, nadiren dostu. Halit'ten sonra Kaya ile evlendi. Aynı zamanda Şahika'nın eski yengesi.</p>
+                                    </div>
+                            <div class="w3-col l3 m6 w3-margin-bottom">
+                                <img src="Yıldız.jpg" alt="Yıldız" style="width:100%">
+                                    <h3>Yıldız 👸</h3>
+                                    <p class="w3-opacity">Halit'in 4. eşi</p>
+                                    <p>Ender'in talimatıyla Halit'in garsonu olarak işe girdi ve onunla evlendi. Elma püresi sektörü sayesinde zengin oldu ama parasını kaybetti. Halit Can'ın annesi. Halit'in onunla tekrar evleneceğini sanırken evden kovuldu.</p>
+                                    </div>
+                            <div class="w3-col l3 m6 w3-margin-bottom">
+                                <img src="Şahika.jpg" alt="Şahika" style="width:100%">
+                                    <h3>Şahika 🐍</h3>
+                                    <p class="w3-opacity">Halit'in direkten dönen eski nişanlısı</p>
+                                    <p>Nadir'in Argun Holding'i ele geçirmek için Halit'in yanına soktuğu ve sonra Nadir'den kurtulan kişi. Birçok defa Halit'le katıldığı törenlerde beklenmedik olaylarla karşılaştı.</p>
+                                    </div>
+                            <div class="w3-col l3 m6 w3-margin-bottom">
+                                <img src="Halit.jpg" alt="Halit" style="width:100%">
+                                    <h3>Halit 💰</h3>
+                                    <p class="w3-opacity">Argun Holding'in eski başkanı</p>
+                                    <p>Argun Holding'in uzun süre yönetim kurulunu yapmış ve 5 defa evlenmiş olan milyoner iş insanı. Yıldız, Ender ve Şahika ile kavga ederken dengesini kaybettikten sonra merdivenlerden yuvarlanarak öldü.</p>
+                                    </div>
+                        </div>
+                        
+                        <!-- Contact Section -->
+                        <div class="w3-container w3-padding-32" id="contact">
+                            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Destek</h3>
+                            <p>Uygulama hakkında herhangi bir sorunuz varsa isminiz ve e-posta adresinizi girerek bize mesaj atabilirsiniz. Mesajınıza en kısa zaman içerisinde geri dönüş yapmaya çalışacağız.</p>
+                            <form action="/action_page.php" target="_blank">
+                                <input class="w3-input w3-border" type="text" placeholder="İsim" required name="İsim">
+                                    <input class="w3-input w3-section w3-border" type="text" placeholder="E-posta" required name="E-posta">
+                                        <input class="w3-input w3-section w3-border" type="text" placeholder="Mesajınız" required name="Mesajınız">
+                                            <button class="w3-button w3-red w3-section" type="submit" style="border-radius:12px">
+                                                <i class="fa fa-paper-plane"></i> Gönder
+                                            </button>
+                                            </form>
+                        </div>
+                        
+                        <!-- Image of location/map -->
+                        
+                        <!-- End page content -->
+                    </div>
+                    
+                    
+                    <!-- Footer -->
+                    <footer class="w3-center w3-red w3-padding-16">
+                        <p>©2020 Can Akgün. Tüm hakları saklıdır.</p>
+                    </footer>
+                    <!-- The core Firebase JS SDK is always required and must be listed first -->
+                    <script src="/__/firebase/8.1.1/firebase-app.js"></script>
+
+                    <!-- TODO: Add SDKs for Firebase products that you want to use
+                         https://firebase.google.com/docs/web/setup#available-libraries -->
+                    <script src="/__/firebase/8.1.1/firebase-analytics.js"></script>
+
+                    <!-- Initialize Firebase -->
+                    <script src="/__/firebase/init.js"></script>
+                </body>
+</html>
+
